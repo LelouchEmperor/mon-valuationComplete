@@ -57,19 +57,20 @@ ul {
     background: radial-gradient(rgb(253, 43, 43), white);
 
 }
+.essaie {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .manga {
     display:flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
     background: white;;
     border-radius: 0% 10% 10% 0%;
 }
 
-#essaie {
-    display: flex;
-    flex-direction: column;
-}
 
 
 
@@ -83,4 +84,57 @@ ul {
 
 .childFooter {
     color: white;
+}
+
+@media screen and (max-width: 1500px) {
+    #background {
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+
+@media screen and (max-width: 910px) {
+    #footer {
+        font-size: 120%;
+    }
+
+    .manga {
+        height: 120%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .redirection {
+        font-size: 70%;
+    }
+
+    .position {
+        padding-right: 7%;
+    }
+
+    #footer {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .manga {
+       /* justify-content: center;*/
+        
+    }
+
+    .Picture1 {
+        height:250px ;
+        width: 170px;
+        
+    }
+
+    .essaie {
+        font-size: 0.5rem;
+    }
+
+    #footer {
+        font-size: 80%;
+    }
 }
