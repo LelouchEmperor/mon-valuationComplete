@@ -4,15 +4,17 @@ body {
 }
 
 #head {
-    background-color: lightcyan;
+    background: black;
     display: flex;
     height: 75px;
+    border-bottom: 1px solid white;
 }
 
 
 h1 {
     font-size: xx-large;
     margin:3px;
+    color:white;
 }
 
 #Picture {
@@ -23,17 +25,22 @@ h1 {
 .position {
    list-style-type: none;
    padding-right: 15%;
+   color: white;
 
 }
 
 
 ul {
     display : flex;
-    background-color: rgb(183, 243, 72);
+    background: black;
     margin:0;
     font-size: 1.25rem;
     justify-content: space-around;
 }
+
+.titleOfManga {
+    font-size: 1.25rem;
+} 
 
 .Picture1 {
     height:300px;
@@ -42,22 +49,25 @@ ul {
 
 #background  {
     display: grid;
-    grid-template-columns: 50px 150px 100px;
+    grid-template-columns: auto auto auto;
     justify-items: stretch;
     align-items: stretch;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 30px;
+    background: radial-gradient(red, white)
 
 }
 
 .manga {
     display:flex;
-    margin: 30px;
-    border: 3px solid blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;;
 }
 
-.titleOfManga {
-    text-align: end;
+#essaie {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -67,5 +77,9 @@ ul {
     justify-content:space-around;
    padding: 1%;
    font-size: 1.5rem;
-   background: coral;
+   background: black;
 } 
+
+.childFooter {
+    color: white;
+}
