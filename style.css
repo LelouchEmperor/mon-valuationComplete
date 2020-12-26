@@ -54,7 +54,7 @@ ul {
     align-items: stretch;
     justify-content: space-around;
     gap: 30px;
-    background: radial-gradient(red, white)
+    background: radial-gradient(rgb(253, 43, 43), white);
 
 }
 
@@ -63,6 +63,7 @@ ul {
     margin-top: 20px;
     margin-bottom: 20px;
     background: white;;
+    border-radius: 0% 10% 10% 0%;
 }
 
 #essaie {
