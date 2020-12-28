@@ -119,15 +119,10 @@ ul {
 }
 
 @media screen and (max-width:530px) {
-    .manga {
-       /* justify-content: center;*/
-        
-    }
 
     .Picture1 {
         height:250px ;
-        width: 170px;
-        
+        width: 170px; 
     }
 
     .essaie {
