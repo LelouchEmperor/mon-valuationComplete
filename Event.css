@@ -129,7 +129,6 @@ h1 {
     width: 484px;
     position: fixed;
     top: 46%;
-    z-index: auto;
 }
 .Picture {
     height: 500px;
@@ -142,12 +141,13 @@ h1 {
     display: flex;
     justify-content: space-around;
     background: black;
-    z-index: auto ;
+    
 }
 
 #footer a {
     color: white; 
 }
+
 
 #textFooter {
     display: flex;
@@ -155,7 +155,6 @@ h1 {
     font-size: 2rem;
     background: white;
     opacity: 0.75a ;
-    z-index: auto;
 }
 
 @media screen and (max-width:1920px) {
@@ -220,5 +219,134 @@ h1 {
     #item11 {
         grid-column-start: 3;
         grid-column-end: 4;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    header p {
+        font-size: 3.5rem;
+    }
+
+    #footer {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1115px)  {
+    #description {
+        font-size: 1.75rem;
+    }
+
+    .Picture {
+        height: 400px;
+        width:400px;
+    }
+
+    .font {
+        font-size:1.75rem;
+    }
+}
+
+@media screen and (max-width:1563px) {
+    #footer {
+        font-size:1.5em;
+        
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #footer {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width:851px) {
+
+    #grid {
+        grid-template-rows: repeat(6, 400px);
+    }
+
+    .Picture {
+        height: 300px;
+        width: 300px;
+    }
+
+    .font {
+        font-size: 1.3rem;
+    }
+    #description {
+        font-size: 1.25rem;
+    }
+
+    header p {
+        font-size: 2.75rem;
+    }
+
+    #footer {
+        font-size:1em
+    }
+
+    #textFooter {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width:627px) {
+    #grid {
+        grid-template-rows: repeat(6, 250px);
+        grid-template-columns: 2% auto auto 2%;
+    }
+
+    .Picture {
+        height: 200px;
+        width: 200px;
+    }
+
+    .font {
+        font-size:1rem;
+    }
+
+    #description {
+        font-size: 0.9rem;
+    }
+
+    #footer {
+        font-size:0.75em;
+    }
+
+    header p {
+        font-size:2rem;
+    }
+}
+
+@media screen and (max-width:455px) {
+
+    #grid {
+        grid-template-rows: repeat(6, 200px);
+    }
+
+    .Picture {
+        height: 150px;
+        width: 150px;
+    }
+
+    #description {
+        font-size: 0.75rem;
+    }
+
+    header p {
+        font-size: 2rem;
+    }
+
+    #footer {
+        font-size:0.6rem;
+    }
+
+    #textFooter {
+        font-size: 1rem;
+    }
+
+    .font {
+        font-size:0.8rem;
     }
 }
