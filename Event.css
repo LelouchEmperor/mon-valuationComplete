@@ -1,10 +1,10 @@
 html  {
-    height: 100%;
+   
 }
 
 body {
-    background-image: url(village\ de\ konoha.jpg);
-    /*background-repeat: no-repeat;*/
+    background-image: url(bleach\ fond\ d\'écran.jpg);
+    background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     margin:0;
@@ -37,7 +37,7 @@ h1 {
 #grid {
     display: grid;
     grid-template-columns:484px 500px 200px auto;
-    grid-template-rows: repeat(7, 550px) ;
+    grid-template-rows: repeat(6, 550px) ;
 }
 
 #description {
@@ -46,10 +46,19 @@ h1 {
     grid-column-end: 5;
     grid-row-start: 1;
     font-size: 2rem;
+    margin: 5%;
+    
 }
 
 #description li {
     background: white;
+    border-top: solid black;
+    border-left: solid black;
+    border-right: solid black;
+    border-radius: 10px;
+    padding:5px;
+    
+    
 }
 
 #item1  {
@@ -75,11 +84,6 @@ h1 {
 #item5  {
     grid-column-start:2;
     grid-row-start: 6 ;
-}
-
-#item6  {
-    grid-column-start:4;
-    grid-row-start: 7 ;
 }
 
 #item7  {
@@ -110,7 +114,7 @@ h1 {
 }
 
 .backgroundText {
-    background: lightgray;
+    background: lightgray;  
     opacity: 0.8;
 }
 .font {
@@ -125,10 +129,31 @@ h1 {
     width: 484px;
     position: fixed;
     top: 46%;
+    z-index: auto;
 }
 .Picture {
     height: 500px;
     width: 500px;
-   
 } 
 
+#footer {
+    list-style-type: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    z-index: auto ;
+}
+
+#footer a {
+    color: white; 
+}
+
+#textFooter {
+    display: flex;
+    justify-content:center;
+    font-size: 2rem;
+    background: white;
+    opacity: 0.75a ;
+    z-index: auto;
+}
