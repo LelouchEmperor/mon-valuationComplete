@@ -3,7 +3,7 @@ html  {
 }
 
 body {
-    background-image: url(bleach\ fond\ d\'écran.jpg);
+    background-image: url('bleach fond d\'écran.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -11,7 +11,7 @@ body {
 }
 
 header p {
-    font-size: 5rem;
+    font-size: 4rem;
     position: fixed;
     color:white;
     background-color: black;
@@ -31,7 +31,7 @@ h1 {
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 40%;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 #grid {
@@ -47,7 +47,7 @@ h1 {
     grid-row-start: 1;
     font-size: 2rem;
     margin: 5%;
-    
+    align-self:center;
 }
 
 #description li {
@@ -156,4 +156,69 @@ h1 {
     background: white;
     opacity: 0.75a ;
     z-index: auto;
+}
+
+@media screen and (max-width:1920px) {
+    #Lelouch {
+        display: none;
+    }
+
+    header p {
+        left:4%;
+        position:absolute;
+    }
+
+    #grid {
+        grid-template-columns: 8% auto auto 5%;
+    }
+
+    #item1 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    #item7 {
+        grid-column-start:3;
+        grid-column-end: 4;
+    }
+
+    #item2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    #item8 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    #item3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    #item9 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    #item4 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    #item10 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    #item5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #item11 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
 }
