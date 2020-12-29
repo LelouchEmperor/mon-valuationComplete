@@ -1,15 +1,25 @@
-
+html  {
+    height: 100%;
+}
 
 body {
     background-image: url(village\ de\ konoha.jpg);
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size:cover;
     background-position: center;
     margin:0;
 }
 
-header {
-
+header p {
+    font-size: 5rem;
+    position: fixed;
+    color:white;
+    background-color: black;
+    border-radius:15%;
+    left:6%;
+    top: 2%;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
@@ -32,8 +42,15 @@ h1 {
 
 
 #description {
+    list-style-type: none;
     grid-column-start: 2;
+    grid-column-end: 5;
     grid-row-start: 1;
+    font-size: 2rem;
+}
+
+#description li {
+    background: white;
 }
 
 #item1  {
@@ -71,11 +88,13 @@ h1 {
     height: 550px;
     width: 484px;
     position: fixed;
-    top: 45%;
+    top: 46%;
 }
 .Picture {
     height: 500px;
     width: 500px;
    
 } 
+
+
 
